@@ -6,7 +6,6 @@
 </head>
 <body>
 	<h1>Hello world!</h1>
-	<P>The time on the server is ${serverTime}.</P>
 	<c:if test="${not empty skills}">
 		<ul>
 			<c:forEach var="listValue" items="${skills}">
